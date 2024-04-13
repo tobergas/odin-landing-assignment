@@ -1,0 +1,190 @@
+body {
+    font-family: roboto sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-one {
+    background-color: #1F2937;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+}
+
+.section-one-text-area {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    margin-left: 250px;
+    margin-right: 100px;
+}
+
+.section-one-header {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 350px;
+    /*word-wrap: break-word;*/
+}
+
+.section-one-para {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 5px 5px 5px 0px;
+    padding-right: 250px;
+}
+
+.sign-up {
+    margin: 15px 0;
+    width: 25%;
+    border-radius: 8px;
+    border-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 4px;
+    font-size: 20px;
+}
+
+.duck-pic {
+    width: auto;
+    height: 250px;
+    padding-bottom: 24px;
+    padding-right: 102px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-two h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.example-pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 400px;
+    margin-bottom: 10%;
+}
+
+#middle_pics {
+    border-radius: 4px;
+    width: 250px;
+    border-color: #3882f6;
+    height: auto;
+}
+
+.pic-text {
+    text-align: center;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: white;
+    padding: 10px;
+}
+
+button:hover { 
+    cursor: url(./reference-images/duck-emoji.png), auto;
+}
+
+.section-three {
+    display: flex;
+    flex-flow: column;
+    padding: 9% 30%;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoter {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.section-four {
+    display: flex;
+    flex-direction: column;
+    margin: 126px;
+}
+
+.section-four-blurb {
+    display: flex;
+    border-radius: 8px;
+    background-color: #3882f6;
+    margin: 20px 30%;
+    justify-content: space-around;
+    padding: 55px;
+}
+
+.section-four-text-info {
+    color: #f9faf8;
+}
+
+.sign-up-two {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: white;
+    padding: 0px 4px;
+    margin: 43px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    color: #f9faf8;
+    justify-content: center;
+    padding: 20px;
+}
